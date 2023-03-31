@@ -1,0 +1,40 @@
+*{
+font-size: 50px;
+}
+h1{
+    background-color: bisque;
+    color: rgb(94, 14, 14);
+    font-family: 'Raleway', sans-serif;;
+}
+#p1{
+    background-color: rgb(60, 19, 99);
+    color: rgb(141, 220, 220);
+    font-style: italic;
+}
+#p2{
+    background-color: rgb(195, 185, 204);
+    color: rgb(10, 13, 13);
+    font-style: bold;
+}
+.p3{
+    background-color:rgb(48, 190, 81);
+    color:rgb(46, 9, 82);
+    font-style: oblique;
+}
+.p4{
+    background-color:rgb(168, 143, 214);
+    color:rgb(18, 10, 26);
+    font-size: 20px;
+}
+.p3:hover{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 500px;
+    height: 250px;
+} 
+
+img[alt]{
+    color:rgb(84, 76, 182)
+}
