@@ -1,0 +1,90 @@
+.son{
+    width: 50% ;
+    float: left;
+}
+.daughter{
+    text-align: right;
+    width:50%;
+    float:right;
+}
+img{
+    width: auto;
+    height:auto;
+}
+body{
+    color: rgb(249, 223, 223);
+    background-color: rgb(48, 148, 89);
+    font: size 8px;
+}
+
+/*mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+    .parent{
+        display: block;
+    }
+    h1{
+    color: brown;
+    width:100%;
+    }
+    .daughter{
+    width:100%;
+    }
+    .son{
+    width:100%;
+    }
+    .daughter img{
+        width:100%;
+        height:auto;
+    }
+    .son p{
+        width:100%;
+    }
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    .parent{
+        display: block;
+    }
+    h1{
+    color: rgb(41, 11, 11);
+    width:100%;
+    background-color: rgb(168, 221, 125);
+    }
+    .daughter{
+    width:100%;
+    }
+    .son{
+    width:100%;
+    }
+    .daughter img{
+        width:100%;
+        height:auto;
+    }
+    .son p{
+        width:100%;
+    }
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    .parent{
+        display: block;
+    }
+    h1{
+    color: rgb(234, 15, 150);
+    width:100%;
+    }
+    .daughter{
+    width:100%;
+    }
+    .son{
+    width:100%;
+    font-size: 20px;
+    }
+    .daughter img{
+        width:100%;
+        height:auto;
+    }
+    .son p{
+        width:100%;
+    }
+}
