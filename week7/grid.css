@@ -1,0 +1,27 @@
+.grid{
+    width: 100%;
+    border:3px solid burlywood;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+}
+.box2{
+    background-color: rgb(234, 206, 163);
+}
+.box3{
+    background-color: rgb(39, 232, 13);
+}
+.box4{
+    background-color: rgb(4, 39, 39);
+}
+.box5{
+    background-color: rgb(100, 151, 151);
+}
+.box6{
+    background-color: rgb(255, 102, 0);
+}
+.box1{
+    background-color: aqua;
+}

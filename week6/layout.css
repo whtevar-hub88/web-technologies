@@ -1,0 +1,99 @@
+.parent{
+    width: 100% ;
+}
+img{
+    width: 500px;
+    height:auto;
+}
+.son{
+    width:50%;
+    float:left;
+}
+.daughter{
+    width:50%;
+    float:right;
+}
+h1{
+    text-align: right;
+    text-transform: uppercase;
+    color: black;
+    background-color: rgb(120, 105, 209);
+    font-size: 100px;
+}
+h1:hover{
+    font-size:60px;
+}
+
+/*mobile devices*/
+@media (min-width:320px) and (max-width:480px){
+    .parent{
+        display: block;
+    }
+    h1{
+    color: brown;
+    width:100%;
+    background-color: aqua;
+    }
+    .daughter{
+    width:100%;
+    }
+    .son{
+    width:100%;
+    }
+    .daughter img{
+        width:100%;
+        height:auto;
+    }
+    .son p{
+        width:100%;
+    }
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    .parent{
+        display: block;
+    }
+    h1{
+    color: rgb(41, 11, 11);
+    width:100%;
+    background-color: rgb(168, 221, 125);
+    }
+    .daughter{
+    width:100%;
+    }
+    .son{
+    width:100%;
+    }
+    .daughter img{
+        width:100%;
+        height:auto;
+    }
+    .son p{
+        width:100%;
+    }
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    .parent{
+        display: block;
+    }
+    h1{
+    color: rgb(234, 15, 150);
+    width:100%;
+    background-color: rgb(26, 20, 4);
+    }
+    .daughter{
+    width:100%;
+    }
+    .son{
+    width:100%;
+    font-size: 20px;
+    }
+    .daughter img{
+        width:100%;
+        height:auto;
+    }
+    .son p{
+        width:100%;
+    }
+}
